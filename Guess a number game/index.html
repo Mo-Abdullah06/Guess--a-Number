@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <button class="newgame">Again!</button>
+        <h3>Guess My Number</h3>
+        <p>Between 1 /and 20</p>
+    </header>
+
+    <div class="line">
+        <div class="questionmark">?</div>
+    </div>
+
+    <div class="playgame">
+
+        <div class="userguess">
+            <label for="" class="label">Enter your guess number ?</label>
+            <input type="text" class="input">
+            <button class="btn2">Check!</button>
+        </div>
+
+        <div class="user-score">
+            <p><i class="fa-solid fa-face-sad-tear emoji"></i>Previous Guesses <span class="Previous-guess"></span></p>
+            <p><i class="fa-solid fa-face-laugh-wink emoji"></i>Remaining Guess... <span
+                    class=" remaining-guess">10</span></p>
+            <p class="result-guess"></p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
